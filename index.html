@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Automation</title>
+</head>
+<body>
+    <h1>Web Controlled Home Automation</h1>
+
+    <!-- LED Control -->
+    <h2>Control LED</h2>
+    <form action="/led/on" method="get">
+        <button type="submit">Turn LED ON</button>
+    </form>
+    <form action="/led/off" method="get">
+        <button type="submit">Turn LED OFF</button>
+    </form>
+
+    <!-- Relay Control (Bulb) -->
+    <h2>Control Bulb</h2>
+    <form action="/relay/on" method="get">
+        <button type="submit">Turn Bulb ON</button>
+    </form>
+    <form action="/relay/off" method="get">
+        <button type="submit">Turn Bulb OFF</button>
+    </form>
+</body>
+</html>
